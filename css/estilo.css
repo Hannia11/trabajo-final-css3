@@ -1,0 +1,252 @@
+* *::before *::after{
+	box-sizing: border-box;
+}
+@font-face {
+font-family: 'Dancing Script';
+src: url(TRABAJO FINAL
+CSS\texto\DancingScript-Regular.ttf);
+}
+body {
+    margin: auto 50px;
+	font-family: Dancing Script;
+    background-color:black;
+}
+
+header {
+height: 1em;
+background-color:#5b7989;
+height: 14vh;
+border-radius: 10px 10px 0px 0px;
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+align-items:center;
+}
+
+h1{
+color: white;
+font-family: Dancing Script;
+text-shadow:2px 2px #02010a;
+font-size: 2em;
+}
+a.navbar.texto {
+font-family: Dancing Script;
+color: white;
+background-position: right;
+}
+.container {
+    background-color:#82c3a6;
+	margin: 0;
+	padding: 0px;
+	width: 100%;
+}
+
+.container div {
+    background-color: #82c3a6;
+	box-sizing: border-box;
+	min-width: 150px;
+	padding: 30px;
+}
+
+.c1 {
+    background-color: #d5c75f;
+	color: white;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    background-size: 50;}
+                                                            
+.c2{ 
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d5c75f;
+  background-position: center center;
+  display: flex;
+  
+}
+
+}
+.imagen2{
+	width:400px;
+	height:300px;
+	background-position: center center;
+
+}
+.imagen {
+background-position: center center;
+}
+
+.imagen:hover {
+	border-radius:50%;
+    -webkit-border-radius:50%;
+	filter:drop-shadow(5px 5px 10px green)
+}
+  
+
+.texto1 .texto2 {
+   display: flex;
+   font-family: Dancing Script;
+   color: white;
+   background-position: center;
+   align-items:center;
+}
+.imagen2:hover {
+	border-radius:10%;
+	filter:drop-shadow(10px 10px 15px blue);
+	-webkit-filter:drop-shadow(10px 10px 15px blue);
+	 
+} 
+.c3{
+	-webkit-column-count: 3;
+    -webkit-column-gap: 100px;
+    -moz-column-count: 3;
+    -moz-column-gap: 100px;
+    column-count: 3;
+    column-gap: 100px;
+}
+
+.img1:hover {
+	filter: blur(10px);
+	}
+
+.img2:hover {
+	filter: grayscale(100%);
+	}
+
+.img3:hover {
+	filter: sepia(90%);
+	}	
+	
+.img4:hover {
+	filter: saturate(180%);
+	}
+
+.img5:hover {
+	filter: opacity(.5);
+	}	
+
+.img6:hover {
+	-webkit-transform: rotate(360deg);transform: rotate(360deg);
+}
+	
+.paisaje1:hover {
+    filter: blur(10px);
+}	
+
+.paisaje2:hover {
+    filter: grayscale(100%);
+}	
+
+.paisaje3:hover {
+    filter: sepia(90%);
+}	
+
+.paisaje4:hover {
+    filter: saturate(180%);
+}	
+
+.paisaje5:hover {
+    filter: opacity(.5);
+}	
+
+.paisaje6:hover {
+    -webkit-transform: rotate(360deg);transform: rotate(360deg);
+}	
+	
+footer {
+    padding: 40px;
+	border-radius: 0px 0px 10px 10px;
+	background-color:#C6d5c5;
+	color: black;
+    font-family: Dancing Script;
+    text-shadow:2px 2px width;
+	text-align: center;
+    font-size: 1em;
+	-webkit-column-count: 4;
+    -webkit-column-gap: 10px;
+    -moz-column-count: 4;
+    -moz-column-gap: 10px;
+    column-count: 4;
+    column-gap: 10px;
+}
+
+div .contenido{
+    width: 900px;
+    position: center center;
+} 
+
+@media screen and (min-width: 480px) {
+header{
+    background-color:#5b7989;	
+}
+.c2{ 
+    align-items: center;
+    background-color: #d5c75f;
+    position: center center;
+}
+.container div {
+    background-color: #82c3a6;
+    position: center center;
+}
+.img1 {
+    width: 100%;
+	}
+
+.img2 {
+    width: 100%;
+	}
+
+.img3 {
+    width: 100%;
+	}	
+	
+.img4 {
+    width: 100%; 
+	}
+
+.img5 {
+    width: 100%;
+	}	
+
+.img6 {
+    width: 100%;
+}
+	
+.paisaje1 {
+    width: 100%;
+}	
+
+.paisaje2 {
+    width:100%;
+}	
+
+.paisaje3 {
+    width: 100%;
+}	
+
+.paisaje4 {
+   width: 100%;
+}	
+
+.paisaje5 {
+width: 100%
+}	
+
+.paisaje6 {
+width: 100%    
+}	
+footer {
+    background-color:#C6d5c5;
+    position: center center;
+}
+
+}
+@media (min-width: 600px) {
+    
+        
+	
+}
+
+@media (min-width: 900px) {
+	
